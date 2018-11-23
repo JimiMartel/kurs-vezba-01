@@ -22,7 +22,7 @@ header, footer {
     background-color: #333;
     color: #f0f0f0;
     overflow: auto;
-    background: #0F2027;  /* fallback for old browsers */
+    background: #0F2027;
     background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 }
