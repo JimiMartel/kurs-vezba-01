@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
+    margin: 0;
     color: #333;
     background-color: #f0f0f0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-p {
-    color: gray;
+
+.container {
+    padding: 0 10%;
 }
+
 /* .img-container {
     width: 1024px;
-    margin: 0 auto; 
+    margin: 0 auto;
     font-size: 0;
 } */
 
 header, footer {
-    margin: 0;
-    padding: 0;
     background-color: #333;
     color: #f0f0f0;
     overflow: auto;
@@ -25,6 +27,33 @@ header, footer {
     background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
 }
 
+
 .crveno {
-    color: red;  
+    color: red;
 }
+
+/* .logo {
+  animation: moveInRight .3s;
+}
+
+.logo img {
+  animation: moveInLeft .2s .1s;
+}
+@keyframes moveInRight {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+} */
