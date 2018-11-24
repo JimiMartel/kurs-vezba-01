@@ -37,7 +37,7 @@ header, footer {
 
 .img-container {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,100%);
 }
@@ -48,16 +48,17 @@ header, footer {
   color: #fff;
   text-align: center;
   font-size: 30px;
-  letter-spacing: 40px;
+  letter-spacing: 35px;
   animation: moveInLeft .6s ease-out;
 }
 .sub-text {
   padding: 0;
   margin: 0;
+  margin-top: 20px;
   color: #fff;
   text-align: center;
-  font-size: 30px;
-  letter-spacing: 40px;
+  font-size: 20px;
+  letter-spacing: 20px;
   animation: moveInRight .6s ease-out;
 }
 .crveno {
